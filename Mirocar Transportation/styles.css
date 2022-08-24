@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  max-width: 1200px auto;
+}
+
+.hero-section {
+  background-color: #040303;
+  color: rgba(255, 255, 255, 0.938);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.hero-main-text {
+  font-family: "Josefin Sans", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 2;
+  position: relative;
+  letter-spacing: 0.5rem;
+}
+
+.of-text {
+  display: inline-block;
+  position: absolute;
+  margin-left: 2rem;
+}
+
+.on-time {
+  font-size: 4rem;
+  color: white;
+}
+
+.hero-list {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(219, 219, 219);
+  list-style-type: none;
+  line-height: 2;
+}
+
+.main {
+  background-color: #041c32;
+}
+
+.imagesgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
+}
+.images {
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+}
+.hero-img {
+  width: 7rem;
+  border: solid 0.2rem #041c32;
+  border-radius: 50%;
+  margin-left: -5rem;
+}
+.nav {
+  background-color: #040303;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-div {
+  margin-top: 15px;
+}
+.btnn {
+  height: 3rem;
+  width: 10rem;
+  border: solid 0.2rem #ecbaba;
+  color: white;
+  background-color: #040303;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  border-radius: 15%;
+  margin-right: -5rem;
+}
+
+.btnn:hover {
+  height: 3rem;
+  width: 10rem;
+  border: solid 0.2rem #ecbaba;
+  color: white;
+  background-color: #041c32;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  border-radius: 15%;
+}
+
+.btnn-about {
+  height: 3rem;
+  width: 10rem;
+  border: solid 0.2rem #041c32;
+  color: white;
+  background-color: #040303;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  border-radius: 15%;
+  margin-top: 1.5rem;
+  margin-right: -15rem;
+}
+
+.btnn-about:hover {
+  height: 3rem;
+  width: 10rem;
+  border: solid 0.2rem #585858;
+  color: white;
+  background-color: #041c32;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  border-radius: 15%;
+}
+.testimonials {
+  background-color: #040303;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  padding: 5rem;
+}
+
+.footer {
+  background-color: #041c32;
+  text-align: center;
+
+  align-items: center;
+  font-size: 5rem;
+}
+.copyright {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  color: grey;
+  margin-top: 10rem;
+  letter-spacing: 0.2rem;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  padding: 25px;
+}
+
+.testimonial-name {
+  padding: 25px;
+}
+
+.contact-body {
+  max-width: 1200px auto;
+  color: aliceblue;
+  background-color: #041c32;
+  font-size: 3rem;
+  font-family: "Josefin Sans";
+  padding: 5rem;
+}
+.contact-h1 {
+  padding: 5rem 0;
+}
+
+.contact-a {
+  text-decoration: dashed;
+  color: #ecbaba;
+}
+
+.contact-p {
+  padding-bottom: 5rem;
+}
+
+/* About us settings */
+
+.about-body {
+  font-family: "Josefin Sans", serif;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #041c32;
+  color: aliceblue;
+}
+.about-text {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2;
+  padding: 2rem;
+}
+.about-h1 {
+  padding: 5rem 2rem;
+  font-size: 2rem;
+}
+.about-contact {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2;
+  padding: 2rem;
+}
